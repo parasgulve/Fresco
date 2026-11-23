@@ -1,0 +1,16 @@
+# PyTorch and torchvision - will be installed separately with CUDA support
+# torch>=2.0.0
+# torchvision>=0.15.0
+
+# Streamlit for web interface
+streamlit>=1.28.0
+
+# Image processing
+Pillow>=10.0.0
+
+# Numerical computing
+numpy>=1.24.0
+
+# Optional: ONNX support (uncomment if needed)
+# onnx>=1.14.0
+# onnx-caffe2

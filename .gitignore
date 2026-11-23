@@ -1,0 +1,38 @@
+# ===== Virtual Environment =====
+venv/
+.venv/
+env/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# ===== PyTorch Model Files (too large for GitHub) =====
+saved_models/*.pth
+saved_models/*.model
+*.onnx
+
+# ===== Temporary & Generated Files =====
+temp_input_image.jpg
+images/output-images/
+
+# ===== IDE / Editor =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== OS Files =====
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ===== Misc =====
+*.log
+.env
