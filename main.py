@@ -3,7 +3,7 @@ from PIL import Image
 
 import style
 
-st.title('PyTorch Style Transfer')
+st.title('🎨 Fresco — Neural Style Transfer')
 
 # File uploader for image selection
 uploaded_file = st.sidebar.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])

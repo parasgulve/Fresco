@@ -1,6 +1,6 @@
-# 🎨 Neural Style Transfer — Real-Time Artistic Image Stylization
+# 🎨 Fresco — Real-Time Neural Style Transfer
 
-A deep learning application that transforms ordinary photographs into stunning artwork using **Neural Style Transfer**. Built with **PyTorch** and served through an interactive **Streamlit** web interface with GPU acceleration.
+A deep learning application that transforms ordinary photographs into stunning artwork using **Neural Style Transfer**. **Fresco** is built with **PyTorch** and served through an interactive **Streamlit** web interface with GPU acceleration.
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.5-EE4C2C?logo=pytorch&logoColor=white)
@@ -57,8 +57,8 @@ Input Image ──► TransformerNet (Feed-Forward CNN) ──► Stylized Outpu
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/neural-style-transfer.git
-cd neural-style-transfer
+git clone https://github.com/YOUR_USERNAME/fresco.git
+cd fresco
 
 # Create virtual environment
 python -m venv venv
@@ -154,7 +154,7 @@ python neural_style.py train \
 ## 📁 Project Structure
 
 ```
-neural-style-transfer/
+fresco/
 ├── main.py               # Streamlit web application
 ├── style.py              # Model loading and inference logic
 ├── neural_style.py       # Training and CLI evaluation pipeline
@@ -198,5 +198,5 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 <p align="center">
-  Built with ❤️ using PyTorch & Streamlit
+  Built with ❤️ by Paras Gulve — Fresco: where AI meets Art
 </p>
